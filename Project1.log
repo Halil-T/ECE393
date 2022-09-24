@@ -1,44 +1,24 @@
-Circuit: * C:\Users\Golde\Documents\Cooper\ECE393\ECE393\Project1.asc
+Circuit: * E:\Cooper\Junior_Fall\ECE393\ECE393\Project1.asc
 
-Warning: Multiple definitions of model "2scr375p" Type: BJT
-Warning: Multiple definitions of model "bc857b" Type: BJT
-Warning: Multiple definitions of model "bc847c" Type: BJT
-Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Node NC_01 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by C4.
 Direct Newton iteration for .op point succeeded.
-.step y=1
-.step y=1.5
-.step y=2
-.step y=2.5
-.step y=3
-.step y=3.5
-.step y=4
-.step y=4.5
-.step y=5
-.step y=5.5
-.step y=6
-.step y=6.5
-.step y=7
-.step y=7.5
-.step y=8
-.step y=8.5
-.step y=9
-.step y=9.5
-.step y=10
 
-Date: Tue Sep 20 15:46:22 2022
-Total elapsed time: 1.228 seconds.
+Date: Sat Sep 24 17:05:22 2022
+Total elapsed time: 0.177 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2087
-traniter = 2082
-tranpoints = 1042
-accept = 1042
-rejected = 0
-matrix size = 9
-fillins = 0
+totiter = 120354
+traniter = 120344
+tranpoints = 38884
+accept = 29701
+rejected = 9183
+matrix size = 8
+fillins = 2
 solver = Normal
-Matrix Compiler1: 456 bytes object code size  0.1/0.1/[0.1]
-Matrix Compiler2: 667 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler1: 558 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 676 bytes object code size  0.1/0.1/[0.1]
 
