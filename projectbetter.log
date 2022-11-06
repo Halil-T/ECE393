@@ -1,24 +1,29 @@
-Circuit: * E:\Cooper\Junior_Fall\ECE393\ECE393\projectbetter.asc
+Circuit: * C:\Users\Golde\Documents\Cooper\ECE393\ECE393\projectbetter.asc
 
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
 WARNING: Node NC_01 is floating.
+WARNING: Node N002 is floating.
 
 WARNING: Less than two connections to node NC_01.  This node is used by C6.
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun Oct 02 21:32:47 2022
-Total elapsed time: 0.320 seconds.
+Date: Tue Oct 18 15:48:25 2022
+Total elapsed time: 1.583 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 22437
-traniter = 22430
-tranpoints = 9696
-accept = 6785
-rejected = 2911
-matrix size = 12
-fillins = 6
+totiter = 90523
+traniter = 90516
+tranpoints = 33100
+accept = 23477
+rejected = 9623
+matrix size = 11
+fillins = 4
 solver = Normal
-Matrix Compiler1: 998 bytes object code size  0.2/0.1/[0.1]
-Matrix Compiler2: off  [0.1]/0.1/0.1
+Matrix Compiler1: 868 bytes object code size  0.7/0.5/[0.4]
+Matrix Compiler2: 963 bytes object code size  0.5/0.5/[0.4]
 
